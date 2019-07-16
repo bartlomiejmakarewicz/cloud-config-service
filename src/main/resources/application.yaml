@@ -3,4 +3,4 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:bartlomiejmakarewicz/cloud-config.git
+          uri: https://github.com/bartlomiejmakarewicz/cloud-config.git
