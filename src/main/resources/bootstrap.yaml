@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-config-service
+  cloud:
+    consul:
+      host: consul
+management:
+  endpoint:
+    health:
+      show-details: always
+server:
+  port: 8888
