@@ -4,3 +4,4 @@ spring:
       server:
         git:
           uri: https://github.com/bartlomiejmakarewicz/cloud-config.git
+          search-paths: '{application}'
