@@ -1,7 +1,12 @@
 spring:
   cloud:
+    bus:
+      enabled: true
     config:
       server:
         git:
-          uri: https://github.com/bartlomiejmakarewicz/cloud-config.git
+          uri: ${GIT_URI}
           search-paths: '{application}'
+          refresh-rate: 60
+  rabbitmq:
+    host: rabbit
